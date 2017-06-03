@@ -1,0 +1,31 @@
+{
+    "version": "0.1.0",
+    "command": "npm",
+    "isShellCommand": true,
+    "args": [],
+    "showOutput": "always",
+    "echoCommand": true,
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": ["run", "build"]
+        },
+        {
+            "taskName": "rebuild",
+            "args": ["run", "rebuild"]
+        },
+        {
+            "taskName": "clean",
+            "args": ["run", "clean"]
+        },
+        {
+            "taskName": "test",
+            "args": ["test"]
+        },
+        {
+            "taskName": "start",
+            "args": ["start"]
+        }
+    ]
+}

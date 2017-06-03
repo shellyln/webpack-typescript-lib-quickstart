@@ -1,0 +1,37 @@
+version: 0.1
+
+environment_variables:
+  plaintext:
+    NODE_ENV: "production"
+phases:
+  install:
+    commands:
+      - printenv
+      - node --version
+      - npm --version
+#      - bash ./buildspec-heroku-pre-deploy.sh
+      - npm cache clean
+      - npm install
+  pre_build:
+    commands:
+      - npm run clean
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - npm test
+#      - bash ./buildspec-heroku-deploy.sh
+artifacts:
+  type: zip
+  files:
+    - bin/**/*
+    - config/**/*
+    - declarations/**/*
+    - dist/**/*
+    - src/**/*
+    - package.json
+    - package-lock.json
+    - LICENSE.md
+    - README.md
+  discard-paths: no
