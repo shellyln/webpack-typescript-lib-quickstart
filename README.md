@@ -104,7 +104,7 @@ Quickstart project for TypeScript library that runs on browsers and/or Node buil
 # Calling from your other Node project (runs on Node)
 1. Install me:  
    ```sh
-   npm install --save-dev shellyln/webpack-typescript-lib-quickstart
+   npm install --save-dev webpack-typescript-lib-quickstart
    ```
 1. Import something:  
    ```javascript
@@ -124,7 +124,7 @@ See [example](https://github.com/shellyln/wp-quickstart-caller-example).
 # Calling from your other Node project (runs on browsers)
 1. Install me:  
    ```sh
-   npm install --save-dev shellyln/webpack-typescript-lib-quickstart
+   npm install --save-dev webpack-typescript-lib-quickstart
    ```
 1. Import something:  
    ```javascript
