@@ -51,4 +51,3 @@ build/Release
 
 # NPM files
 .npmrc
-package-lock.json
