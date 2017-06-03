@@ -1,6 +1,13 @@
 # webpack-typescript-lib-quickstart
 Quickstart project for TypeScript library that runs on browsers and/or Node build with Webpack2.
 
+[![npm](https://img.shields.io/npm/v/webpack-typescript-lib-quickstart.svg)](https://www.npmjs.com/package/webpack-typescript-lib-quickstart)
+[![GitHub release](https://img.shields.io/github/release/shellyln/webpack-typescript-lib-quickstart.svg)](https://github.com/shellyln/webpack-typescript-lib-quickstart/releases)
+[![Travis](https://img.shields.io/travis/shellyln/webpack-typescript-lib-quickstart.svg)](https://travis-ci.org/shellyln/webpack-typescript-lib-quickstart)
+[![GitHub forks](https://img.shields.io/github/forks/shellyln/webpack-typescript-lib-quickstart.svg?style=social&label=Fork)](https://github.com/shellyln/webpack-typescript-lib-quickstart/fork)
+[![GitHub stars](https://img.shields.io/github/stars/shellyln/webpack-typescript-lib-quickstart.svg?style=social&label=Star)](https://github.com/shellyln/webpack-typescript-lib-quickstart)
+
+---
 
 ### Features
 * Compile TypeScript source and output as CommonJS format with declaration information and source map.
@@ -60,7 +67,7 @@ Quickstart project for TypeScript library that runs on browsers and/or Node buil
             }, {
             ...
     },
-    
+
     // [Browser-single-js-file]: Packing a library Javascript file.
     {
         entry: {
