@@ -11,7 +11,10 @@
     "Library",
     "SCSS",
     "PostCSS",
-    "CI"
+    "CI",
+    "scaffolding",
+    "Getting started",
+    "Starter"
   ],
   "main": "./bin/index.js",
   "typings": "./declarations/index.d.ts",
@@ -32,7 +35,8 @@
     "test": "node --harmony ./node_modules/jasmine-node/bin/jasmine-node --verbose bin/spec",
     "start": "node --harmony ./bin/app.js",
     "postinstall": "run-s --silent rebuild",
-    "prepublish": "run-s --silent rebuild test clean"
+    "prepublish": "run-s --silent rebuild test clean",
+    "watch": "webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",

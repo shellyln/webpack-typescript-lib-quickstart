@@ -24,6 +24,10 @@ module.exports = function (env) { return [
             // TODO: YOU SHOULD REPLACE THE LIBRARY OUTPUT NAME!
             index_single: path.resolve(__dirname, 'src/index.ts')
         },
+        // TODO: YOU SHOULD MODIFY PATTERN OF EXTERNAL MODULES!
+        // If you call "require()" with passing modules paths matched to following pattern,
+        // "require()" will be resolved runtime.
+        //externals: /^(fs)$/,
         output: {
             // TODO: YOU SHOULD REPLACE THE LIBRARY NAME!
             library: 'AwesomeMyLibrary',
@@ -94,6 +98,10 @@ module.exports = function (env) { return [
             // TODO: YOU SHOULD REPLACE THE LIBRARY OUTPUT NAME!
             awesomemylib: path.resolve(__dirname, 'src/index.ts')
         },
+        // TODO: YOU SHOULD MODIFY PATTERN OF EXTERNAL MODULES!
+        // If you call "require()" with passing modules paths matched to following pattern,
+        // "require()" will be resolved runtime.
+        //externals: /^(fs)$/,
         output: {
             // TODO: YOU SHOULD REPLACE THE LIBRARY NAME!
             library: 'AwesomeMyLibrary',

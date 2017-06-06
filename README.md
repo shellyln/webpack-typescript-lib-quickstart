@@ -210,6 +210,15 @@ app.html
 
 
 
+# Debugging with Webpack
+1. `npm run watch`
+1. Run debbuger.
+1. Fix anything and save it.
+1. Go back to line 2.
+
+
+
+
 # Directory structure
 * /bin/ : Output directory of Node module javascript file (CommonJS) that build with tsc.
 * /bin/index_single.js : Node module javascript single file (CommonJS) that build+packed by Webpack.
@@ -251,6 +260,7 @@ app.html
 * clean : Clean all output.
 * test : Run unit tests.
 * start : Run codes for debugging (bin/app.js).
+* watch : Build distribution output and watch continuously.
 
 
 
