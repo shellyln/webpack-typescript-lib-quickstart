@@ -22,6 +22,7 @@ export class AssetsLoader {
 
         // load stylesheet and append to DOM.
         let css   = require("../assets/scss/main.scss");
+        console.log(css);
     }
 }
 
