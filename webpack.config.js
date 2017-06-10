@@ -64,7 +64,9 @@ module.exports = function (env) { return [
             }, {
                 test: /\.(css|scss)$/,
                 use: [
-                    'style-loader',
+                    // TODO: If you want to get the stylesheets as string, you choose ['to-string-loader', 'css-loader', ...] .
+                    //       Or you want to load to dom these, you choose ['style-loader', 'css-loader', ...] .
+                    'to-string-loader',
                     'css-loader',
                     {
                         loader: 'postcss-loader',
@@ -138,7 +140,9 @@ module.exports = function (env) { return [
             }, {
                 test: /\.(css|scss)$/,
                 use: [
-                    'style-loader',
+                    // TODO: If you want to get the stylesheets as string, you choose ['to-string-loader', 'css-loader', ...] .
+                    //       Or you want to load to dom these, you choose ['style-loader', 'css-loader', ...] .
+                    'to-string-loader',
                     'css-loader',
                     {
                         loader: 'postcss-loader',
