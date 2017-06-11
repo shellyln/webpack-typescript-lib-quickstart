@@ -3,7 +3,7 @@ Quickstart project for TypeScript library that runs on browsers and/or Node buil
 
 [![npm](https://img.shields.io/npm/v/webpack-typescript-lib-quickstart.svg)](https://www.npmjs.com/package/webpack-typescript-lib-quickstart)
 [![GitHub release](https://img.shields.io/github/release/shellyln/webpack-typescript-lib-quickstart.svg)](https://github.com/shellyln/webpack-typescript-lib-quickstart/releases)
-[![Travis](https://img.shields.io/travis/shellyln/webpack-typescript-lib-quickstart.svg)](https://travis-ci.org/shellyln/webpack-typescript-lib-quickstart)
+[![Travis](https://img.shields.io/travis/shellyln/webpack-typescript-lib-quickstart/master.svg)](https://travis-ci.org/shellyln/webpack-typescript-lib-quickstart)
 [![GitHub forks](https://img.shields.io/github/forks/shellyln/webpack-typescript-lib-quickstart.svg?style=social&label=Fork)](https://github.com/shellyln/webpack-typescript-lib-quickstart/fork)
 [![GitHub stars](https://img.shields.io/github/stars/shellyln/webpack-typescript-lib-quickstart.svg?style=social&label=Star)](https://github.com/shellyln/webpack-typescript-lib-quickstart)
 
@@ -13,15 +13,9 @@ Quickstart project for TypeScript library that runs on browsers and/or Node buil
 * Compile TypeScript source and output as CommonJS format with declaration information and source map.
 * Compile TypeScript source and output as CommonJS format single file with declaration information source map.  
   (Declaration information settings are disabled. See tsconfig-webpack-node-dist.json.)
-
-
 * Compile TypeScript source and output as AMD format single file with source map.
 * Compile SCSS, do auto-prefixing (PostCSS), and output as single CSS file with source map.
-
-
 * Run unit tests ([jasmine](https://jasmine.github.io/)).
-
-
 * Include CI configurations
   ([Travis CI](https://travis-ci.org/),
    [bitbucket pipelines](https://www.atlassian.com/software/bitbucket/features/pipelines),
