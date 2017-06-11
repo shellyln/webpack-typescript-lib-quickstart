@@ -9,20 +9,19 @@ export class AssetsLoader {
      */
     public load(): void {
         // load html as string.
-        let html  = require("../views/main.html");
+        const html  = require("../views/main.html");
         console.log(html);
 
         // load json as object.
-        let json  = require("../assets/data/main.json");
+        const json  = require("../assets/data/main.json");
         console.log(JSON.stringify(json));
 
         // load image as data url string.
-        let image = require("../assets/images/bug.png");
+        const image = require("../assets/images/bug.png");
         console.log(image);
 
         // load stylesheet and append to DOM.
-        let css   = require("../assets/scss/main.scss");
+        const css   = require("../assets/scss/main.scss");
         console.log(css);
     }
 }
-
