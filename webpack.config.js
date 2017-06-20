@@ -37,6 +37,7 @@ module.exports = function (env) { return [
             path: path.resolve(__dirname, 'bin'),
             devtoolModuleFilenameTemplate: process.env.NODE_ENV === 'production' ? void 0 : void 0
         },
+        target: "node",
         module: {
             rules: [{
                 test: /\.tsx?$/,
@@ -113,6 +114,7 @@ module.exports = function (env) { return [
             path: path.resolve(__dirname, 'dist'),
             devtoolModuleFilenameTemplate: process.env.NODE_ENV === 'production' ? '[resource-path]' : void 0
         },
+        target: "web",
         module: {
             rules: [{
                 test: /\.tsx?$/,
