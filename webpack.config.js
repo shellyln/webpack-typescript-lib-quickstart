@@ -105,6 +105,16 @@ module.exports = function (env) { return [
         // If you call "require()" with passing modules paths matched to following pattern,
         // "require()" will be resolved runtime.
         //externals: /^(fs)$/,
+        node: {
+            fs: "empty",
+            console: false,
+            process: false,
+            global: false,
+            __filename: false,
+            __dirname: false,
+            Buffer: false,
+            setImmediate: false,
+        },
         output: {
             // TODO: YOU SHOULD REPLACE THE LIBRARY NAME!
             library: 'AwesomeMyLibrary',
